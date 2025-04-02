@@ -1,5 +1,4 @@
 .container_big-card{
-    border: solid white 2px;
     width: 400px;
     display: flex;
     margin-left: 10px;
@@ -14,7 +13,19 @@
     font-size: 20px;
 }
 
-.big-card_description > p{
-    margin-top: 10px;
+.big-card_title > a{
+    cursor: pointer;
+}
+
+.big-card_description{
+    margin-top: 20px;
+}
+
+.big-card_description > p > a{
     color: grey;
+}
+
+.big-card_photo > img{
+    width: 100%;
+    min-width: 400px;
 }
