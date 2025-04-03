@@ -1,0 +1,21 @@
+.container_menu-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.btns-rede > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.btns-rede > ul > li{
+    padding-right: 10px;
+    list-style: none;
+}
+
+.title{
+    font-size: 20px;
+}
