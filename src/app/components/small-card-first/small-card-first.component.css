@@ -12,7 +12,7 @@
 }
 
 .small-card_photo > img{
-    margin-left: 20px;
+    margin-left: 0px;
     width: 100%;
     min-width: 300px;
     height: 120px;
@@ -22,6 +22,6 @@
 
 .small-card_title{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
