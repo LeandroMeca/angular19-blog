@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+    .big-card_photo > img{
+        width: 300px;
+        min-width: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+}
