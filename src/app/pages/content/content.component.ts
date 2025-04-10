@@ -11,8 +11,8 @@ import { dataFake } from "../../data/dataFake";
 })
 export class ContentComponent implements OnInit{
 
- 
-  photoCover:string = "";
+  
+  photoCover:string = ""
 
   contentTitle:string = ""
 
@@ -25,7 +25,7 @@ export class ContentComponent implements OnInit{
 
 
   ngOnInit(): void {
-   this.route.paramMap.subscribe( value => console.log(value.get("id"))
+   this.route.paramMap.subscribe( value => this.id = value.get("id")
    )
    this.setValuesToComponent(this.id)
   }
