@@ -7,5 +7,14 @@
         justify-content: space-between;
         padding: 10px;
     }
+
+    .btns-rede > ul{
+        flex-direction: column;
+    }
+
+    .btns-rede > ul > li{
+        margin-top: 5px;
+        font-size: 18px;
+    }
   
 }
